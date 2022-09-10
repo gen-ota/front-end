@@ -1,0 +1,38 @@
+/*home*/
+#b1{display: flex;flex-direction: column;background-color: rgb(13, 113, 97);font-size: 60px;justify-content: space-around;}
+#title{display: flex;flex-direction: column;background-color: rgb(151, 228, 238);font-size: 60px;justify-content: center;color: rgb(13, 113, 97);}
+#expiremints{display: flex;flex-direction: column;background-color: rgb(164, 189, 198);font-size: 60px;justify-content: space-around;text-decoration: none;color: rgb(13, 113, 97);}
+/*biomain*/
+#biomains{display: flex;flex-direction: column;background-color: rgb(151, 228, 238);font-size: 60px;justify-content: space-around;}
+/*biovid*/
+#biovidst{display: flex;flex-direction: column;background-color: rgb(151, 228, 238);font-size: 60px;justify-content: space-around;}
+/*kimmain*/
+#kimmains{display: flex;flex-direction: column;background-color: rgb(151, 228, 238);font-size: 60px;justify-content: space-around;}
+/*kimvid*/
+#kimvidst{display: flex;flex-direction: column;background-color: rgb(151, 228, 238);font-size: 60px;justify-content: space-around;}
+/*phimain*/
+#phimains{display: flex;flex-direction: column;background-color: rgb(151, 228, 238);font-size: 60px;justify-content: space-around;}
+/*phivid*/
+#phividst{display: flex;flex-direction: column;background-color: rgb(151, 228, 238);font-size: 60px;justify-content: space-around;}
+/*mainbio*/
+#b21{display: flex;flex-direction: column;background-color: rgb(13, 113, 97);font-size: 60px;justify-content: space-around;}
+/*mainbio2*/
+#b23{display: flex;flex-direction: column;background-color: rgb(13, 113, 97);font-size: 60px;justify-content: space-around;}
+/*mainkim*/
+#b31{display: flex;flex-direction: column;background-color: rgb(13, 113, 97);font-size: 60px;justify-content: space-around;}
+/*mainkim2*/
+#b33{display: flex;flex-direction: column;background-color: rgb(13, 113, 97);font-size: 60px;justify-content: space-around;}
+/*mainphi*/
+#b41{display: flex;flex-direction: column;background-color: rgb(13, 113, 97);font-size: 60px;justify-content: space-around;}
+/*mainphi2*/
+#b43{display: flex;flex-direction: column;background-color: rgb(13, 113, 97);font-size: 60px;justify-content: space-around;}
+/*like and dislik*/
+#phiexps{display: flex;flex-direction: row;}
+#kimexp1{display: flex;flex-direction: row;}
+#bioexp1{display: flex;flex-direction: row;}
+#mainman{display: flex;justify-content: space-between;}
+#line1{background-color: rgb(255, 255, 255);}
+
+
+#ithinkimdone{background-color: rgb(101, 101, 248);}
+#last{background-color:rgb(152, 152, 243);display:flex;align-items: center;justify-content: center;font-size: 60px;}

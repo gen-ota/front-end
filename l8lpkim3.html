@@ -1,0 +1,73 @@
+<head><link rel="stylesheet" type="text/css"href="C:\Users\Dell\Desktop\ata\yuricka\l8\l8lp\l8lp.css">
+    <script src="javap.js"></script>
+    <title>e-sciences lab</title>
+</head>
+
+<body id="b33">
+    <div id="mainman">
+        <a href="C:\Users\Dell\Desktop\ata\yuricka\l8\l8lp\l8lp.html">الصفحة الرئيسة</a>
+        <a href="C:\Users\Dell\Desktop\ata\yuricka\l8\l8lp\l8lpkim3.html">كيمياء</a>
+        <a href="C:\Users\Dell\Desktop\ata\yuricka\l8\l8lp\l8lpphi3.html">فيزياء</a>
+        <a href="C:\Users\Dell\Desktop\ata\yuricka\l8\l8lp\l8lpbio3.html">أحياء</a>
+    </div>
+    
+    <div id="kimvidst">
+        <a><img src="بركان.webp"></a>
+        <a href="https://youtu.be/VC4obIiLSp8">تجربة بركان</a> 
+        <div id="kimexp1">
+
+        </div>
+        <button id ="kimexp1bd">discribtion</button>
+        <p id="kimexp1pd1"></p>
+        <p id="kimexp1pd2"></p>
+       
+        
+        <div id="kimexp1">    
+            <a><img src="ثعبان السكر.webp"></a>
+        </div>
+        <a href="https://youtu.be/uNJI9n6bCFU">تجربة ثعبان السكر</a>
+        <button id ="kimexp2bd">discribtion</button>
+        <p id="kimexp2pd1"></p>
+        <p id="kimexp2pd2"></p>
+        
+        
+        <div id="kimexp1">
+            <a><img src="نار.webp"></a>            
+        </div>
+        <a href="https://youtu.be/00pn8wKnZb0">تجربة النار الباردة</a>
+        <button id ="kimexp3bd">discribtion</button>
+        <p id="kimexp3pd1"></p>
+        <p id="kimexp3pd2"></p>
+            
+        
+</body>
+<script>
+/*    const e = require("express")
+    
+    const we="we"
+
+    const mongoose = requier('mongoose')
+    
+    const urldp = "mongodb+srv://atal8:<atal8>@cluster0.aeuaeke.mongodb.net/?retryWrites=true&w=majority"
+    
+    mongoose.connect;(urldp).then(() => {console.log("hellow")}).catch((error) => {console.log(error)})
+ */
+
+    document.getElementById("kimexp1bd").addEventListener('click',kimexp1df);
+    function kimexp1df(){
+            document.getElementById("kimexp1pd1").innerHTML = "البركان";
+            document.getElementById("kimexp1pd2").innerHTML = "المواد:مذكورة في بدية الفيديو";
+    }
+
+    document.getElementById("kimexp2bd").addEventListener('click',kimexp2df);
+    function kimexp2df(){
+            document.getElementById("kimexp2pd1").innerHTML = "ثعبان السكر";
+            document.getElementById("kimexp2pd2").innerHTML = "المواد:مذكورة في بدية الفيديو"
+    }
+
+    document.getElementById("kimexp3bd").addEventListener('click',kimexp3df);
+    function kimexp3df(){
+            document.getElementById("kimexp3pd1").innerHTML = "النار الباردة";
+            document.getElementById("kimexp3pd2").innerHTML = "المواد:مذكورة في بداية الفيديو";
+    }
+</script>
